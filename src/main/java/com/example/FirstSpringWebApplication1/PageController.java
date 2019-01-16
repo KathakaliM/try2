@@ -6,13 +6,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@EnableAutoConfiguration
-@ComponentScan(basePackages = {"com.example.FirstSpringWebApplication1"})
+//@EnableAutoConfiguration
+//@ComponentScan(basePackages = {"com.example.FirstSpringWebApplication1"})
 public class PageController  {
   
 	@RequestMapping("/web")
 	public String home()
 	{
-		return "web.jsp";
+		return "web";
 	}
 }
