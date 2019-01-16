@@ -15,4 +15,8 @@ public class PageController  {
 	{
 		return "web";
 	}
+	 @RequestMapping("/test")
+	    public  void handler2 () {
+	       throw new RuntimeException("exception from handler2");
+	    }
 }
